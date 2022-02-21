@@ -126,7 +126,7 @@ In 2019, there were 5,217 public airports in the U.S.
 
 - Using a PostgreSQL database in Google Cloud Platform
 
-![DB Instance](database_del_2/Screenshots/GCP_DB_INSTANCE.PNG.PNG)
+![DB Instance](https://github.com/varunrao10/Domestic_Airport_Airline_Delay_Pred/blob/main/database_del_2/Screenshots/GCP_DB_INSTANCE.PNG)
 
 - Database stores static data for use during the project, includes csvs of cleaned and preprocessed data 
 
