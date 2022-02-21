@@ -8,10 +8,6 @@
 
 - Access to Presentation -> https://docs.google.com/presentation/d/1fgzr0_UD_RiEuSSxB1nHUACtOhJ9jH2Yjc9kaCJDfmw/edit#slide=id.p
 
-## Website Interactive Dashboard Link
-
-- Access to Website Link -> https://finalprojectgroup10.000webhostapp.com/
-**(PLEASE NOTE: FREE HOSTING WEBSITE REQUIRES INCOGNITO OR PRIVATE TAB TO ACCESS LINK)**
 
 ## Team Members & Roles
 
