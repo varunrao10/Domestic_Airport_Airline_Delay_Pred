@@ -11,10 +11,10 @@
 
 ## Team Members & Roles
 
-- Varun Rao (Circle Role)
-- Nada Abubaker (Triangle Role)
-- Herbert Han (Square Role)
-- Saeed Husseini (X Role)
+- Varun Rao (Database Role)
+- Nada Abubaker (Machine Learning Role)
+- Herbert Han (Github and Testing Role)
+- Saeed Husseini (Documentation and Presentation Role)
 
 ## Project Overview 
 
@@ -57,38 +57,11 @@ In 2019, there were 5,217 public airports in the U.S.
 - All data files are downloaded from OST website, which stores flights on-time performance from 1987 to present.
 - The OST contains information from the US Bureau of Transportation Statistics.
 
-## Machine Learning Model
-
-### Data Pre-processing/Cleaning
-
-- Deciding the definition of a delayed flight, which variables to keep in the model, which variables to discard.
-
-- Supervised machine learning model aimed at predicting flight delays.
-- Using historical delay information from 2016-2018 from US domestic airports and flights.
-
-Potential ML models to use:
-- Logistic Regression
-- Balanced Random Forest Classifier
-- Random Forest Classifier
-- Decision Tree Classifier
-- Bagging Classifier
-
-## Database
-
-![Database](https://user-images.githubusercontent.com/88692025/149708413-5a7d9a7a-5cc1-4731-9e5f-f383848ded1c.PNG)
-
-- The Database table structures accommodates the fields in the file 
-- In addition, we add fields for timestamps combining the data and time portions
-- The table has a composite primary key for ensuring uniqueness and efficient data retrieval
-- Based on the type of usage we plan to add additional indexes for efficient data retrieval
-- The database technology used is PostgreSQL and it will be hosted on AWS
-
 ## Group 10 Final Project
 
 ## Project Overview (continued)
 
 ### Selected topic
-- Outlined in more detail in segment 1 above. 
 - Our selected topic is to analyze and overview 2018 U.S. Domestic Flight data, specifically airports and airlines that suffer from delay.
 - Use 2018 historical data and machine learning to predict 2022 flights for specific airlines/airports and whether or not they are delayed and by how many minutes.
 - No longer focusing on flight cancellations or earliness, focusing primarily on arrival delay at destination and departure delay at origin.
@@ -98,7 +71,6 @@ Potential ML models to use:
 - Travelers can get an idea if the flight they are on will be delayed or not, and if it will arrive late at the destination airport, which can allow them to plan their travel more accurately.
 
 ### Description of their source of data
-- Outlined in Detail in Segment 1 above
 - Airline Delay and Cancellation Data, 2009 - 2018 from Kaggle.com
 - Flight info. of US domestic flights for all flights in 2018
 
@@ -125,7 +97,7 @@ Potential ML models to use:
 - jupyter notebook and colab google : data preprocessing and analysis
 - Tableau Desktop Version 2021.4 : interactive Graph  visualization
 - JavaScript and HTML5 : website
-- PostgreSQL and  AWS : database 
+- PostgreSQL and  GCP : database 
 - google doc - presentations
   
 
@@ -155,7 +127,7 @@ Potential ML models to use:
 Team members present a fully integrated
 database.
 
-- Switched to GCP PostgreSQL database for a much faster database than AWS
+- Using a PostgreSQL database in Google Cloud Platform
 
 
 - Database stores static data for use during the project, includes csvs of cleaned and preprocessed data 
@@ -164,13 +136,7 @@ database.
 
 - Data stored in tables and stores the formatted raw data and the Machine learning model Data
 
-
-- Includes at least two tables (or collections, if using MongoDB) + Includes at least one join using the database language (not including any joins in Pandas) two linked csvs to concatenate play airport names and airline names in the original dataset. Our team used databases to join them.
-
 - Join on another airplane dataset to provide airport names and latitude and longitude
-
-
-- Includes at least one connection (using SQLAlchemy or PyMongo)
 
 - Using the JDBC connector to write to the database
 
