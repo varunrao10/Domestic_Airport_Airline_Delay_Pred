@@ -124,11 +124,9 @@ In 2019, there were 5,217 public airports in the U.S.
 
 ## Database
 
-Team members present a fully integrated
-database.
-
 - Using a PostgreSQL database in Google Cloud Platform
 
+![DB Instance](database_del_2/Screenshots/GCP_DB_INSTANCE.PNG.PNG)
 
 - Database stores static data for use during the project, includes csvs of cleaned and preprocessed data 
 
