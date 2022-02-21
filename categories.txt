@@ -1,0 +1,33 @@
+# Data Cleaning and Preprocessing
+
+## Glossary
+
+- FL_DATE = Date of the Flight
+- OP_CARRIER = Airline Identifier
+- OP_CARRIER_FL_NUM = Flight Number
+- ORIGIN = Starting Airport Code
+- DEST = Destination Airport Code
+- CRS_DEP_TIME = Planned Departure Time
+- DEP_TIME = Actual Departure Time
+- DEP_DELAY = Total Delay on Departure in minutes
+- TAXI_OUT = The time duration elapsed between departure from the origin airport gate and wheels off
+- WHEELS_OFF = The time point that the aircraft's wheels leave the ground
+- WHEELS_ON = The time point that the aircraft'ss wheels touch on the ground
+- TAXI_IN = The time duration elapsed between wheels-on and gate arrival at the destination airport
+- CRS_ARR_TIME = Planned arrival time
+- ARR_TIME = Actual Arrival Time = ARRIVAL_TIME - SCHEDULED_ARRIVAL
+- ARR_DELAY = Total Delay on Arrival in minutes
+- CANCELLED = Flight Cancelled (1 = cancelled)
+- CANCELLATION_CODE = Reason for Cancellation of flight: A - Airline/Carrier; B - Weather; C - National Air System; D - Security
+- DIVERTED = Aircraft landed on different airport that the one scheduled
+- CRS_ELAPSED_TIME = Planned time amount needed for the flight trip
+- ACTUAL_ELAPSED_TIME = AIR_TIME+TAXI_IN+TAXI_OUT
+- AIR_TIME = The time duration between wheels_off and wheels_on time
+- DISTANCE = Distance between two airports
+- CARRIER_DELAY = Delay caused by the airline in minutes
+- WEATHER_DELAY = Delay caused by weather
+- NAS_DELAY = Delay caused by air system
+- SECURITY_DELAY = caused by security reasons
+- LATE_AIRCRAFT_DELAY = Delay caused by security
+
+Source: Kaggle
